@@ -17,7 +17,6 @@ export class HeroSectionComponent implements OnInit {
   ngOnInit(): void {
     this.setData();
     this.heroData = this.getData();
-    console.log(this.heroData);
   }
 
   // Method to set data

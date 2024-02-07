@@ -1,0 +1,16 @@
+<section class="py-16 bg-cyan-500">
+  <h1 class="text-center text-3xl font-bold text-slate-700 mb-5">
+    Partners & Friends
+  </h1>
+  <div
+    class="max-w-screen-xl grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-3 mx-auto items-center justify-center"
+  >
+    @for (img of partners[0].imgs ; track partners[0]) {
+    <img
+      class="mb-5 mx-auto md:mx-0 lg:mx-0"
+      [src]="img"
+      alt="Friends & Partners"
+    />
+    }
+  </div>
+</section>
